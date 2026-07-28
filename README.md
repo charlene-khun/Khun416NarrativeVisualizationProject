@@ -7,7 +7,7 @@ This project is an **interactive slideshow** with three D3 scenes built from `ca
 - `index.html` — Index.html is the main page for my website. Provides my website with structure and contains D3 JS script imports.
 - `styles.css` — Styles.css contains styling for the layout, responsive design, annotations, controls, and tooltips.
 - `script.js` — Script.js contains data loading, state parameters, scene construction, annotations, and triggers.
-- `cars2017.csv` — Cars2017.csv is the public data I am using from the Prof's github page: https://github.com/flunky/flunky.github.io.
+- `cars2017_unique_no_overlap.csv` — cars2017_unique_no_overlap.csv is the cleaned version of cars.2017.csv. Cars.2017.csv is the public data I am using from the Prof Hart's github page: https://github.com/flunky/flunky.github.io.
 
 ## Narrative structure
 
