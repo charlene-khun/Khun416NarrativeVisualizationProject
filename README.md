@@ -4,18 +4,17 @@ This project is an **interactive slideshow** with three D3 scenes built from `ca
 
 ## Project files
 
-- `index.html` — page structure and D3 script references
-- `styles.css` — layout, responsive design, annotations, controls, and tooltip styling
-- `script.js` — data loading, state parameters, scene construction, annotations, and triggers
-- `cars2017.csv` — source dataset
-- `essay.pdf` — submission-ready explanation of the narrative visualization
+- `index.html` — Index.html is the main page for my website. Provides my website with structure and contains D3 JS script imports.
+- `styles.css` — Styles.css contains styling for the layout, responsive design, annotations, controls, and tooltips.
+- `script.js` — Script.js contains data loading, state parameters, scene construction, annotations, and triggers.
+- `cars2017.csv` — Cars2017.csv is the public data I am using from the Prof's github page: https://github.com/flunky/flunky.github.io.
 
 ## Narrative structure
 
-The visualization uses the interactive slideshow structure:
+My visualization uses the interactive slideshow structure in the following order:
 
-1. Engine cylinders vs. highway MPG
-2. City MPG vs. highway MPG
+1. Engine cylinders vs. average highway MPG
+2. Average City MPG vs. Average highway MPG
 3. Average efficiency by fuel type
 
 Each scene includes a persistent annotation, free-form hover tooltips, and navigation triggers. The JavaScript state variables `state.scene` and `state.activeFuel` act as the main parameters controlling what is displayed.
