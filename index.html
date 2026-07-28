@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An interactive D3 narrative visualization of 2017 automobile efficiency data.">
+  <title>2017 Automobile Efficiency Story</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+
+  <a class="brand" href="#" aria-label="Return to first scene">
+    <img
+      class="brand-logo"
+      src="images/car_logo.png"
+      alt=""
+    >
+    <span>2017 AUTOMOBILE STUDY</span>
+  </a>
+
+  <nav class="scene-tabs" aria-label="Narrative scenes">
+    <button class="scene-tab" data-scene="0">Overview</button>
+    <button class="scene-tab" data-scene="1">City vs. Highway</button>
+    <button class="scene-tab" data-scene="2">Beyond Gasoline</button>
+  </nav>
+
+</header>
+
+    <main class="story-layout">
+      <section class="story-copy" aria-live="polite">
+        <p id="scene-kicker" class="scene-kicker"></p>
+        <h1 id="scene-title"></h1>
+        <div class="accent-line" aria-hidden="true"></div>
+        <p id="scene-description" class="scene-description"></p>
+
+        <div class="interaction-card">
+          <span class="interaction-icon" aria-hidden="true">↗</span>
+          <p id="interaction-hint"></p>
+        </div>
+
+        <div id="fuel-controls" class="fuel-controls" aria-label="Fuel filter"></div>
+      </section>
+
+      <section class="chart-panel" aria-live="polite">
+        <div class="chart-heading">
+          <p id="chart-kicker" class="chart-kicker"></p>
+          <h2 id="chart-title"></h2>
+        </div>
+        <div id="chart" class="chart" aria-label="Interactive automobile chart"></div>
+      </section>
+    </main>
+
+    <footer class="story-footer">
+      <div class="scene-counter" aria-label="Current scene">
+        <span id="current-scene">01</span>
+        <span class="counter-line" aria-hidden="true"></span>
+        <span>03</span>
+      </div>
+
+      <div id="progress" class="progress" aria-label="Scene progress"></div>
+
+      <div class="navigation-buttons">
+        <button id="previous-button" class="secondary-button" type="button">← Previous</button>
+        <button id="next-button" class="primary-button" type="button">Next scene →</button>
+      </div>
+    </footer>
+  </div>
+
+  <div id="tooltip" class="tooltip" role="tooltip" aria-hidden="true"></div>
+
+  <!-- D3 is the only JavaScript visualization library used. -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
