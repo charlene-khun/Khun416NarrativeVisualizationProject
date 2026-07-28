@@ -1,6 +1,6 @@
 # 2017 Automobile Efficiency — D3 Narrative Visualization
 
-This project is an **interactive slideshow** with three D3 scenes built from `cars2017.csv`.
+This project is an **interactive slideshow** with three D3 scenes built from `cars2017_unique_no_overlap.csv`.
 
 ## Project files
 
