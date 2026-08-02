@@ -44,7 +44,7 @@ const sceneDefinitions = [
     title: "Fuel type changes the scale of efficiency.",
     description:
       "Diesel generally improves the average MPG, however electric vehicles occupy a different range entirely. Electric vehicles are reported as MPGe, an energy-equivalent measure.",
-    hint: "Hint: Hover over any bar for the exact category average. Select a fuel button to emphasize one group.",
+    hint: "Hint: Hover over any bar for the exact category average (highway or city). Select a filtering button to focus on a specific fuel type group.",
     chartKicker: "Fuel comparison",
     chartTitle: "Average city and highway efficiency by fuel type",
     progressLabel: "Beyond Gasoline",
