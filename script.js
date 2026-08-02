@@ -22,7 +22,7 @@ const sceneDefinitions = [
     title: "What makes a car efficient?",
     description:
       "For gasoline and diesel vehicles, engine size is a strong starting point. An important relationship to note is as cylinder count increases, average highway efficiency generally decreases.",
-    hint: "Hint: Hover over a point to know the details of the manufacturer. Use the fuel buttons to isolate gasoline or diesel vehicles.",
+    hint: "Hint: Hover over a point to know the details of the manufacturer. Select a filtering button to isolate gasoline or diesel vehicles.",
     chartKicker: "Engine size",
     chartTitle: "More cylinders are associated with lower highway MPG",
     progressLabel: "Overview",
