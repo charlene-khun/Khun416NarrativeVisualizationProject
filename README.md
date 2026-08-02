@@ -17,4 +17,4 @@ My visualization uses the interactive slideshow structure in the following order
 2. Average City MPG vs. Average highway MPG
 3. Average efficiency by fuel type
 
-Each scene includes a persistent annotation, free-form hover tooltips, and navigation triggers. The JavaScript state variables `state.scene` and `state.activeFuel` act as the main parameters controlling what is displayed.
+Each scene includes a uniform annotation, free-form hover tooltips, and navigation triggers. The JavaScript state variables `state.scene` and `state.activeFuel` act as the main parameters controlling what is displayed.
